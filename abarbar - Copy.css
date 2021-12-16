@@ -1,0 +1,54 @@
+*{padding: 0px;margin: 0px;box-sizing: border-box;}
+#wraper{width: max-width;height: 100vh;}
+#nav{background-color: rgb(118, 87, 230);width: 100%;;padding-right: 80px ;position: fixed;padding-top: 5px;}
+#nav-list{list-style-type: none;padding-right: 350px;}
+#nav-list li{height: 70px;display: inline-block;margin: -2px;text-align: center;}
+#nav-list li a{text-decoration: none;color: white;}
+#nav-list li a div{padding: 25px;padding-right: 55px;}
+#nav p{color: white;font-weight: bolder;float: right;padding-top: 20px;font-size: 35px;padding-right: 55px;}
+#nav-abarbar{float: right;padding-right: 75px;}
+#nav-abarbar img{width: 65px;padding-top: 15px;color: blue;}
+#header{height: 100vh;background-color: rgba(235, 238, 238, 0.801);background-image: url('	https://abrbar.com/static/landing_temporary/images/header-background.jpg?176944a73792');background-attachment: fixed;}
+#header-page{height: 690px;width: 75%;background-size: 100%;margin-right: 145px;padding-top: 15px;}
+#header-page img{float: left;margin: 30px;margin-top: 150px;width: 35%;}
+#header-content{float: right;margin-top: 90px;margin: 30px;padding: 35px;;}
+#header-page p{margin-right:55 px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;float: right;font-size: 24px;line-height: 55px;padding-right: 16px;color: white;text-shadow: 2px 2px 3px black;}
+#button-show{font-size: 30px;background-color: #01b0ff;color: white;border: 3px solid rgb(237, 233, 238);border-radius: 10px;padding: 13px;margin-left: 35px;}
+#recive-1{float: right;font-size: 35px;font-weight: bold;border: 3px solid rgb(179, 148, 192);padding: 10px;padding-left: 25px;;color: cornsilk;background-color: cyan;text-shadow: 3px 3px 4px rgb(237, 100, 230);border-radius: 25px;box-shadow: 3px 3px 4px chartreuse;margin-top:60px;display: inline;margin-right: 40px;;}
+#recive-2{float: right;font-size: 35px;font-weight: bold;border: 3px solid rgb(186, 157, 199);padding: 10px;padding-left: 30px;;color: cornsilk;background-color: cyan;text-shadow: 3px 3px 4px rgb(237, 100, 230);border-radius: 25px;box-shadow: 3px 3px 4px chartreuse;display: inline;margin-top: 40px;margin: 60px;padding-top: 11px;}
+#show-recive{display: block;padding-top: 0px;padding-top: 30px;}
+#drup-down:visited #show-recive{display: inline;float: right;background-color: rgb(237, 100, 107);}
+#property{background-color: #ecf5fe}
+#property-header{clear: both;background-color: #01b0ff;padding-top: 60px;padding-bottom: 45px;text-align: center;}
+#property-header h2{color: white;font-size: 35px;}
+.property{border: 1px solid rgb(15, 15, 15);display: inline-block;padding: 65px;margin: 10px;border-radius: 15px;margin-bottom: 60px;background-color: white;}
+#propertys{text-align: center;}
+#pro-div5{padding: 65px;padding-top: 28px;padding-bottom: 65px;}
+#pro-div4{padding-left: 60px;padding-right: 60px;padding-top: 40px;margin-right: 0px;}
+#pro-div3{padding-left: 60px;padding-right: 40px;margin-right:5px;}
+#pro-div2{margin-left:15px;padding-left: 56px;padding-bottom: 70px;padding-left: 65px;padding-right: 50px;}
+#pro-div1{margin-right: 0px;}
+#pro-div6{margin-left: 0px;}
+#information-app{background-color: #ecf5fe;}
+#driver-informatino{display:inline-block;}
+#travel-information{display:inline-block;}
+#order-information{display:inline-block;}
+#downloading-information{display:inline-block;}
+#header-video{padding-bottom: 45px;margin-bottom: 50px;}
+#video-abarbar{border: 3px solid black;border-radius: 5px;}
+#information-pro{background-color: #2f2c3d;}
+#infomation-owner div{float: right; margin-top:150px;margin-right:100px;}
+#infomation-owner a{padding-left:30px;padding-right: 30px;padding-top: 15px;padding-bottom: 15px;border: 1px solid #00c9db;float: right;background-color: #00c9db;border-radius: 10px;font-size: 20px;margin-right: 325px;margin-top:40px;color: white;}
+#information-driver img{max-width: 40%;padding-top: 50px;}
+#information-driver div{float: left;padding-top: 100px;padding-left: 50px;color: white;}
+#information-driver a{padding-left:30px;padding-right: 30px;padding-top: 15px;padding-bottom: 15px;border: 1px solid #00c9db;float: left;background-color: #00c9db;border-radius: 10px;font-size: 20px;margin-left: 175px;margin-top:40px;color: white;}
+#name{display: block;width: 40%;height: 40px;font-size: 25px;border-radius: 15px;margin-right: 450px;margin-left: 0px;}
+#call{display: block;width: 40%;height: 40px;font-size: 25px;border-radius: 15px;margin-right: 450px;margin-left: 0px}
+#email{display: block;width:40%;height: 40px;font-size: 25px;border-radius: 15px;margin-right: 450px;margin-left: 0px}
+#offer{display: block;width:40%;height:200px;font-size: 25px;border-radius: 15px;margin-right: 450px;margin-left: 0px}
+#submit{display: block;width:40%;height:50px;font-size: 25px;border-radius: 15px;margin-right: 450px;margin-left: 0px;background-color: #fdfdfd;margin-bottom: 60px;}
+#footer{background-color: #ecf5fe;padding-top: 0px;}
+form div{padding: 15px;}
+#suggest{margin-bottom: 30px;margin-right: 480px;line-height: 70px;}
+#about{display: inline-block;color: white;margin-right: 95px;margin-top: 70px;line-height: 35px;padding-right: 60px;padding-top: 30px;}
+#cite-relative{display: inline-block;margin-right: 150px;margin-top: 20px;padding-bottom: 60px;line-height: 35px;}
