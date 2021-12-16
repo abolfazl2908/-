@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local</title>
+    <link type="text/css" rel="stylesheet" href="local.css">
+    <script src="local.js">
+    </script>
+</head>
+
+<body style="background-image: url('background.jpg');background-repeat: no-repeat;background-size: cover;">
+    <div id="div-local">
+        <form action="javascript:void();" id="form_local" onsubmit="return local()">
+            <label><b>ایمیل خودرا وارد کنید</b></label>
+            <input id="email" name="email" value="" type="email">
+            <label for="password"><b> پسوردتان وارد کنید</b></label>
+            <input id="password" name="password" type="password">
+            <button type="submit" id="submit"> ایجاد حساب کاربری</button>
+        </form>
+    </div>
+    <script>
+        function local() {
+            var email = document.forms["form_local"]["email"].value;
+            var password = document.forms["form_local"]["password"].value;
+            if (email == "" & password == "") {
+                alert("پسوردوایمیلتان را وارد")
+
+            }
+            else if (email != "" & password == "") {
+                alert('پسوردتانرا واردکنید')
+            }
+            else if (email == "" & password != "") {
+                alert(
+                    "ایمیلتلن را وارد کنید"
+                )
+            }
+            else {
+
+                return localsteroge()
+            
+            }
+        }
+    </script>
+</body>
+
+</html>

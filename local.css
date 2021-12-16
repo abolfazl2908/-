@@ -1,0 +1,5 @@
+* {border: none;padding:none ;margin: none;padding: 20px;}
+#div-local{background-color: rgba(165, 63, 212, 0.5);width: 490px;position: absolute;left: 500px;top: 150px;}
+#email{border:3px dashed black;padding: 15px;width: 350px;display: block;margin: 25px;background: none;margin-right:30px ;}
+#password{border: 3px dashed black;padding: 15px;width: 350px;display: block;margin: 25px;background: none;}
+#submit{background: none;margin-left: 160px;font-size: larger;background-color: chartreuse;}
